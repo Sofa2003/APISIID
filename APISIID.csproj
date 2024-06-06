@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PlatformTarget>x86</PlatformTarget>
+    <Platforms>AnyCPU;x64;ARM64;x86</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\StarsPlugin\StarsPlugin.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TFlexAPI">
+      <HintPath>bin\Debug\net8.0-windows\TFlexAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="TFlexAPI3D">
+      <HintPath>..\..\..\..\..\..\Program Files\T-FLEX CAD Учебная Версия 17\Program\TFlexAPI3D.dll</HintPath>
+    </Reference>
+    <Reference Include="TFlexCommandAPI">
+      <HintPath>..\..\..\..\..\..\Program Files\T-FLEX CAD Учебная Версия 17\Program\TFlexCommandAPI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
