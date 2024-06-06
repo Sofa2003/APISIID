@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{50650EDE-EA58-40DC-93EF-5CBF29AE94DC}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>StarsPlugin</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Stars</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>Bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>Bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="StarsPlugin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\Debug\StarsPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TFlexAPI">
+      <HintPath>..\..\..\..\..\..\Program Files\T-FLEX CAD Учебная Версия 17\Program\TFlexAPI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="TFlexCommandAPI">
+      <HintPath>..\..\..\..\..\..\Program Files\T-FLEX CAD Учебная Версия 17\Program\TFlexCommandAPI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\StarsPlugin\AssemblyInfo.cs">
+      <Link>StarsPlugin\AssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\..\StarsPlugin\CreateCommand.cs">
+      <Link>StarsPlugin\CreateCommand.cs</Link>
+    </Compile>
+    <Compile Include="..\..\StarsPlugin\EditCommand.cs">
+      <Link>StarsPlugin\EditCommand.cs</Link>
+    </Compile>
+    <Compile Include="..\..\StarsPlugin\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs">
+      <Link>StarsPlugin\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\StarsPlugin\ReferenceHolder.cs">
+      <Link>StarsPlugin\ReferenceHolder.cs</Link>
+    </Compile>
+    <Compile Include="..\..\StarsPlugin\StarCommand.cs">
+      <Link>StarsPlugin\StarCommand.cs</Link>
+    </Compile>
+    <Compile Include="..\..\StarsPlugin\StarObject.cs">
+      <Link>StarsPlugin\StarObject.cs</Link>
+    </Compile>
+    <Compile Include="..\..\StarsPlugin\StarPropertiesDialog.cs">
+      <Link>StarsPlugin\StarPropertiesDialog.cs</Link>
+    </Compile>
+    <Compile Include="..\..\StarsPlugin\StarPropertiesWindow.cs">
+      <Link>StarsPlugin\StarPropertiesWindow.cs</Link>
+    </Compile>
+    <Compile Include="..\..\StarsPlugin\StarsFloatingWindow.cs">
+      <Link>StarsPlugin\StarsFloatingWindow.cs</Link>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="..\..\StarsPlugin\StarsFloatingWindow.Designer.cs">
+      <Link>StarsPlugin\StarsFloatingWindow.Designer.cs</Link>
+      <DependentUpon>StarsFloatingWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="..\..\StarsPlugin\StarsPlugin.cs">
+      <Link>StarsPlugin\StarsPlugin.cs</Link>
+    </Compile>
+    <Compile Include="EditCommand.cs" />
+    <Compile Include="StarPropertiesDialog.cs" />
+    <Compile Include="StarPropertiesWindow.cs" />
+    <Compile Include="ReferenceHolder.cs" />
+    <Compile Include="StarCommand.cs" />
+    <Compile Include="StarsPlugin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CreateCommand.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StarObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="StarsFloatingWindow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StarsFloatingWindow.Designer.cs">
+      <DependentUpon>StarsFloatingWindow.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="..\..\StarsPlugin\obj\Debug\Stars.StarsFloatingWindow.resources">
+      <Link>StarsPlugin\obj\Debug\Stars.StarsFloatingWindow.resources</Link>
+    </EmbeddedResource>
+    <EmbeddedResource Include="..\..\StarsPlugin\StarsFloatingWindow.resx">
+      <Link>StarsPlugin\StarsFloatingWindow.resx</Link>
+      <DependentUpon>StarsFloatingWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resource Files\StarObject.ico" />
+    <EmbeddedResource Include="StarsFloatingWindow.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StarsFloatingWindow.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\StarsPlugin\Bin\Debug\StarsPlugin.dll">
+      <Link>StarsPlugin\Bin\Debug\StarsPlugin.dll</Link>
+    </Content>
+    <Content Include="..\..\StarsPlugin\Bin\Debug\StarsPlugin.pdb">
+      <Link>StarsPlugin\Bin\Debug\StarsPlugin.pdb</Link>
+    </Content>
+    <Content Include="..\..\StarsPlugin\obj\Debug\StarsPlugin.csproj.FileListAbsolute.txt">
+      <Link>StarsPlugin\obj\Debug\StarsPlugin.csproj.FileListAbsolute.txt</Link>
+    </Content>
+    <Content Include="..\..\StarsPlugin\obj\Debug\StarsPlugin.dll">
+      <Link>StarsPlugin\obj\Debug\StarsPlugin.dll</Link>
+    </Content>
+    <Content Include="..\..\StarsPlugin\obj\Debug\StarsPlugin.pdb">
+      <Link>StarsPlugin\obj\Debug\StarsPlugin.pdb</Link>
+    </Content>
+    <Content Include="..\..\StarsPlugin\Readme.txt">
+      <Link>StarsPlugin\Readme.txt</Link>
+    </Content>
+    <Content Include="..\..\StarsPlugin\Resource Files\CreateStars.ico">
+      <Link>StarsPlugin\Resource Files\CreateStars.ico</Link>
+    </Content>
+    <Content Include="..\..\StarsPlugin\Resource Files\Fill.ico">
+      <Link>StarsPlugin\Resource Files\Fill.ico</Link>
+    </Content>
+    <Content Include="..\..\StarsPlugin\Resource Files\StarEdit.ico">
+      <Link>StarsPlugin\Resource Files\StarEdit.ico</Link>
+    </Content>
+    <Content Include="..\..\StarsPlugin\Resource Files\StarObject.ico">
+      <Link>StarsPlugin\Resource Files\StarObject.ico</Link>
+    </Content>
+    <Content Include="..\..\StarsPlugin\Resource Files\StarsWindow.ico">
+      <Link>StarsPlugin\Resource Files\StarsWindow.ico</Link>
+    </Content>
+    <Content Include="..\..\StarsPlugin\StarsPlugin.sln">
+      <Link>StarsPlugin\StarsPlugin.sln</Link>
+    </Content>
+    <Content Include="Readme.txt" />
+    <EmbeddedResource Include="Resource Files\StarEdit.ico" />
+    <EmbeddedResource Include="Resource Files\CreateStars.ico" />
+    <EmbeddedResource Include="Resource Files\StarsWindow.ico" />
+    <EmbeddedResource Include="Resource Files\Fill.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\StarsPlugin\.vs\StarsPlugin.csproj.dtbcache.json">
+      <Link>StarsPlugin\.vs\StarsPlugin.csproj.dtbcache.json</Link>
+    </None>
+    <None Include="..\..\StarsPlugin\.vs\StarsPlugin\FileContentIndex\c7f1bf2d-d23c-4771-8ddc-f504f51853cc.vsidx">
+      <Link>StarsPlugin\.vs\StarsPlugin\FileContentIndex\c7f1bf2d-d23c-4771-8ddc-f504f51853cc.vsidx</Link>
+    </None>
+    <None Include="..\..\StarsPlugin\.vs\StarsPlugin\v17\.suo">
+      <Link>StarsPlugin\.vs\StarsPlugin\v17\.suo</Link>
+    </None>
+    <None Include="..\..\StarsPlugin\.vs\StarsPlugin\v17\DocumentLayout.json">
+      <Link>StarsPlugin\.vs\StarsPlugin\v17\DocumentLayout.json</Link>
+    </None>
+    <None Include="..\..\StarsPlugin\Bin\Debug\StarsPlugin.tfa">
+      <Link>StarsPlugin\Bin\Debug\StarsPlugin.tfa</Link>
+    </None>
+    <None Include="..\..\StarsPlugin\obj\Debug\DesignTimeResolveAssemblyReferences.cache">
+      <Link>StarsPlugin\obj\Debug\DesignTimeResolveAssemblyReferences.cache</Link>
+    </None>
+    <None Include="..\..\StarsPlugin\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache">
+      <Link>StarsPlugin\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache</Link>
+    </None>
+    <None Include="..\..\StarsPlugin\obj\Debug\StarsPlugin.csproj.AssemblyReference.cache">
+      <Link>StarsPlugin\obj\Debug\StarsPlugin.csproj.AssemblyReference.cache</Link>
+    </None>
+    <None Include="..\..\StarsPlugin\obj\Debug\StarsPlugin.csproj.CoreCompileInputs.cache">
+      <Link>StarsPlugin\obj\Debug\StarsPlugin.csproj.CoreCompileInputs.cache</Link>
+    </None>
+    <None Include="..\..\StarsPlugin\obj\Debug\StarsPlugin.csproj.GenerateResource.cache">
+      <Link>StarsPlugin\obj\Debug\StarsPlugin.csproj.GenerateResource.cache</Link>
+    </None>
+    <None Include="..\..\StarsPlugin\StarsPlugin.csproj">
+      <Link>StarsPlugin\StarsPlugin.csproj</Link>
+    </None>
+    <None Include="..\..\StarsPlugin\StarsPlugin.tfa">
+      <Link>StarsPlugin\StarsPlugin.tfa</Link>
+    </None>
+    <None Include="StarsPlugin.tfa">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="StarsPlugin\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
